@@ -29,16 +29,16 @@ Meu primeiro contato com a liguagem SQL veio com o boom dos servidores de jogos 
 ## **CHANGELOG**
 
 #### 04/11/2020
-- [x] Criação da páginas do formulários usando estrutura Bootstrap 4;
+- [x] Criação do formulário usando estrutura Bootstrap 4;
 - [x] Atribuição das propriedadades do HTML5 nos inputs;
 - [x] Criado pasta **dbCreate** que contém os arquivos: 
-        **dbCreate.php** -> cria a Database e as tabelas do projeto via PHP;
-        **dbCreateSQL.txt** -> SQL string caso queiram criar a Database e as tabelas via MySQL;
+- [x] **dbCreate.php** :: cria a Database e as tabelas do projeto via PHP;
+- [x] **dbCreateSQL.txt** :: cria a Database e as tabelas do projeto via Código MySQL;
 - [x] Adicionado um favicon;
 
 **Obs: O formulário - *por enquanto* - está apenas visual, não incluí nenhuma programação PHP para tratar os dados e inserir no banco de dados.**
 
-**Obs2: Não estou ultilizando todo meu conhecimento em programação ensse projeto. Vou implementar aos poucos a evolução dos meus códigos.**
+**Obs2: Não estou ultilizando todo meu conhecimento em programação nesse projeto. Vou implementar aos poucos a evolução dos meus códigos.**
 
 ## **PRÓXIMAS ATUALIZAÇÕES**
 - [ ] Criar página dinâmica via GET;
