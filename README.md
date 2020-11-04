@@ -3,7 +3,7 @@ Olá! Meu nome é André Santos e sou aluno do primeiro semestre de Análise e D
 Vou iniciar esse sistema do zero, ultilizando uma estrutura básica e organizada de uma forma que - *por hora* - eu considero mais organizada. Com o tempo, acredito que muita coisa vai ser melhorada.
 
 ## **LISTA DE TECNOLOGIAS UTILIZADAS**
-Nesta sessão vou listar as tecnologias que estarei utilizando para esse formulários, assim com descrições pertinentes conforme evoluo meus conhecimentos.
+Nesta sessão vou listar as tecnologias que estarei utilizando para esse formulário, assim com descrições pertinentes conforme evoluo meus conhecimentos.
 
 - **GIT e GITHUB**
 Comecei a estudar a tecnologia **GIT** hoje dia 04 nov 2020. Já consigo utilizar os comandos básicos via console. Para treinar estou usando esses conhecimentos para sub aqui no GITHUB os arquivos versionados em minha máquina local
@@ -25,6 +25,25 @@ Hoje em dia é essencial a utilização dessas três tecnologias para a criaçã
 
 - **MYSQL**
 Meu primeiro contato com a liguagem SQL veio com o boom dos servidores de jogos online. Comecei a fuçar um pouco no SQL Server 2000 e foi onde tirei minhas primeiras noções basicas dessa incrível linguagem. Hoje foco mais na utilização do MySQL.
+
+## **CHANGELOG**
+
+##### 04/11/2020
+- Criação da páginas do formulários usando estrutura Bootstrap 4;
+- Atribuição das propriedadades do HTML5 nos inputs;
+- Criado pasta **dbCreate** que contém os arquivos: 
+        **dbCreate.php** cria a Database e as tabelas do projeto via PHP;
+        **dbCreateSQL.txt** SQL string caso queiram criar a Database e as tabelas via MySQL;
+- Adicionado um favicon;
+
+**Obs: O formulários por enquanto está apenas visual, não inclui nenhum programação PHP para tratar os dados e inserir no banco de dados.**
+
+## **PRÓXIMAS ATUALIZAÇÕES**
+- [ ] Criar página dinâmica via GET;
+- [ ] Incluir arquivo PHP no form para inclusão do banco de dados;
+- [ ] Corrigir todas propriedades dos inputs;
+- [ ] Correções no layout;
+- [ ] Adicionar função Ajax para submeter o formulário em tempo real;
 
 ## **CONTATO**
 [LinkedIN](https://www.linkedin.com/in/andcssantos/)

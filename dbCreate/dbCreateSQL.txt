@@ -1,0 +1,60 @@
+CREATE DATABASE IF NOT EXISTS studyweb;
+
+USE studyweb;
+
+CREATE TABLE funcionarios (
+			  id int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+			  codigo char(32) NOT NULL,
+			  nomeCompleto varchar(80) NOT NULL,
+			  dtNascimento date NOT NULL,
+			  genero char(1) NOT NULL,
+			  estadoCivil varchar(10) NOT NULL,
+			  nacionalidade varchar(25) NOT NULL,
+			  naturalidade varchar(25) NOT NULL,
+			  escolaridade char(7) NOT NULL,
+			  nomePai varchar(80) NULL,
+			  nomeMae varchar(80) NULL,
+			  telResidencial char(14) NULL,
+			  telCelular char(15) NOT NULL,
+			  docRG varchar(14) NOT NULL, 
+			  docCPF char(14) NOT NULL,
+			  cnhNumero char(11) NULL,
+			  cnhCategoria varchar(3) NULL,
+			  cnhValidade date NULL,
+			  cnhEmissao date NULL,
+			  ctpsPIS char(11) NOT NULL,
+			  ctpsNumero char(7) NOT NULL,
+			  ctpsSerie char(4) NOT NULL,
+			  ctpsUF char(2) NOT NULL,			  
+			  dtAdmissao datetime NOT NULL,
+			  dtDemissao datetime NULL,
+			  setor int(11) NOT NULL,
+			  funcao int(11) NOT NULL,
+			  valorSalario float(6,2) NOT NULL DEFAULT 0.00,
+			  statusVR tinyint(1) NOT NULL,
+			  valorVR float(5,2) NOT NULL DEFAULT 0.00,
+			  statusVT tinyint(1) NOT NULL,
+			  valorVT float(5,2) NOT NULL DEFAULT 0.00,
+			  statusPSaude tinyint(1) NOT NULL,
+			  acessoEmail char(32) NOT NULL,
+			  acessoSenha char(32) NOT NULL,
+			  dtRegistro datetime NOT NULL,
+			  dtAcesso datetime NOT NULL,
+			  tipoConta int(11) NOT NULL DEFAULT 0,
+			  statusConta tinyint(1) NOT NULL DEFAULT 0,
+			  observacao text NULL
+			);
+
+
+CREATE TABLE funcendereco (
+			  id int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+			  codFunc char(32) NOT NULL,
+			  cep char(9) NOT NULL,
+			  endereco varchar(80) NOT NULL,
+			  numero varchar(5) NOT NULL,
+			  complemento varchar(15) NULL,
+			  bairro varchar(30) NOT NULL,
+			  cidade varchar(30) NOT NULL,
+			  uf char(2) 	NOT NULL,
+			  pais varchar(30) NOT NULL
+			);
